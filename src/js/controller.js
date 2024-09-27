@@ -162,6 +162,10 @@ const newFeature = function () {
   console.log('Welcome');
 };
 
+const welcomeFeature = function () {
+  console.log('Hallo World');
+};
+
 //Publisher/subscriber pattern
 const init = function () {
   bookmarksView.addHandlerRender(controlBookmarks);
@@ -174,3 +178,4 @@ const init = function () {
   newFeature();
 };
 init();
+welcomeFeature();
